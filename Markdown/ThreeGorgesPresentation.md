@@ -543,13 +543,10 @@ In respect to the preceding passages, only heuristic approach methods can be qua
 
 ---
 
-<!-- .slide: data-background="./gif/thanks.png" data-background-position="center" data-background-size="100%" -->
 <!-- .slide: data-background="orange" -->
 
 <h1 id="hrb">Thank you</h1>
 
 --
-
-<!-- .slide: data-background="./gif/thats-better.gif" -->
 
 <h2 id="hr">Potential questions and details</h2>

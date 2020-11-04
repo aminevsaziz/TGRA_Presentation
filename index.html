@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<title>reveal.js *-* Markdown Example</title>
+
+		<link rel="stylesheet" href="./dist/reset.css">
+		<link rel="stylesheet" href="./dist/reveal.css">
+		<link rel="stylesheet" href="./dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<!-- <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme"> -->
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					<script type="text/template">
+						
+						<img uml="User -> (Start)
+								User --> (Use the application) : A small label
+								:Main Admin: ---> (Use the application) : This is\nAnother\nlabel"/>
+
+					</script>
+				</section>
+				<section data-markdown="./Markdown/ThreeGorgesPresentation.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+			</div>
+		</div>
+
+
+		<style>
+			#hrb {
+				color:black;
+				text-align:right
+				}
+			#hr {
+			text-align:right
+			}
+			#hcb {
+			color:black;
+			text-align:center
+			}
+			#hlb {
+			color:black;
+			text-align:left
+			}
+			#hl {
+			text-align:left
+			}
+		</style>
+
+		<script src="./dist/reveal.js"></script>
+		<script src="./plugin/markdown/markdown.js"></script>
+		<script src="./plugin/highlight/highlight.js"></script>
+		<script src="./plugin/notes/notes.js"></script>
+		<script src="./plugin/math/math.js"></script>
+		<script src="./plugin/zoom/zoom.js"></script>
+
+		<script src="./plugin/chalkboard/plugin.js"></script>
+		<script src="./plugin/anything/plugin.js"></script>
+
+		<script src="./plugin/chart/Chart.min.js"></script>
+		<script src="./plugin/chart/plugin.js"></script>
+
+		<script src="./plugin/animate/svg.min.js"></script>
+		<script src="./plugin/animate/plugin.js"></script>
+
+		<script src="lib/deflate.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				height: 1080,
+				width: 1920,
+				// zoomKey: "alt",
+				// Factor of the display size that should remain empty around
+  				// the content
+  				// margin: 0.04,
+				// Bounds for smallest/largest possible scale to apply to content
+				// minScale: 0.2,
+				// maxScale: 2.0,
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				mouseWheel: true,
+				previewLinks: false,
+				dependencies: [
+					{ src: 'plugin/plantuml.js', async: true }
+					],
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath, RevealNotes, RevealZoom, RevealChalkboard, RevealAnything, RevealChart, RevealAnimate]
+				// plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+
+		</script>
+
+	</body>
+</html>

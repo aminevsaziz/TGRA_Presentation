@@ -1,7 +1,6 @@
 
 <!-- .slide: style="color:black" data-background="orange" -->
 
-<!-- <h3 class="" id="h3l" style="text-align:right;color:black"> -->
 <h1 class="" id="hrb">Landslide prediction and monitoring in the Three Gorges Reservoir Area</h1>
 
 By:
@@ -42,7 +41,6 @@ Problem Statement
   - Constructions in inadequate terrains and/or soils increase the overall expenses and the project budget by the exposure of such constructions to landslide and land instabilities.
 
 </span>
-
 
 --
 
@@ -160,24 +158,6 @@ Evaluating models performance and the results obtained using the most appropriat
 <span style="display: block; text-align: justify;">
 Address the issues of availability, visualization, and publishing of the detailed results in the form of reproducible, reliable, high resolution, generic landslide susceptibility map per each model using GIS, and web-GIS and estimating their applicability for better environmental management and for reducing the victims and damages caused by future landslide occurrences.
 </span>
-<!-- </span> -->
-
----
-
-<!-- .slide: data-background="orange" -->
-
-<h1 id="hrb">Thesis Outline</h1>
-
---
-
-<h2 id="hr">Outlines</h2>
-
-<!-- <span style="display: block; text-align: justify; font-size: large;"> -->
-
-<small>
-
-
-</small>
 <!-- </span> -->
 
 ---
@@ -573,32 +553,3 @@ In respect to the preceding passages, only heuristic approach methods can be qua
 <!-- .slide: data-background="./gif/thats-better.gif" -->
 
 <h2 id="hr">Potential questions and details</h2>
-
----
-<span class="fragment"></span>
-<span class="fragment"></span>
-<span class="fragment"></span>
-
-<div data-animate data-src="./img/smbo.svg">
-  <!--
-  {
-  "setup": [
-  {
-  "element": "#lsmodels",
-  "modifier": "attr",
-  "parameters": [ { "class": "fragment", "data-fragment-index": "0" } ]
-  },
-  {
-  "element": "#center",
-  "modifier": "attr",
-  "parameters": [ { "class": "fragment", "data-fragment-index": "1" } ]
-  },
-  {
-  "element": "#f",
-  "modifier": "attr",
-  "parameters": [ { "class": "fragment", "data-fragment-index": "2" } ]
-  }
-  ]
-  }
-  -->
-</div>
